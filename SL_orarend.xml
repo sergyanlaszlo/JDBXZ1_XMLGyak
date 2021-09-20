@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Webes_Alkalmazasfejlesztes"/>
+	<idopont>
+		<nap id="nap_4xm_2jb" nev="Hetfo"/>
+		<tol id="tol_4xm_2jb" ido="10_00"/>
+		<ig/ id="iig_4xm_2jb" ido="12_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="101_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Krizsan_Zoltan"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+</orarend>
