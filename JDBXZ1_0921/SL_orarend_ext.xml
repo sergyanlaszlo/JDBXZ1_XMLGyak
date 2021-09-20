@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+
+<nap id="nap_4xm_2jb" nev="Hetfo">
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Webes_Alkalmazasfejlesztes"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="10_00"/>
+		<ig/ id="iig_4xm_2jb" ido="12_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="101_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Krizsan_Zoltan"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Webtechnologiak"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="12_00"/>
+		<ig/ id="iig_4xm_2jb" ido="14_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="A3_308"/>
+	<oktato id="ptr_4xm_2jb" nev="Agardi_Anita"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Mesterseges_intelligencia"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="14_00"/>
+		<ig/ id="iig_4xm_2jb" ido="17_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="32_Eloado"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Dudas_Laszlo"/>
+	<szak id="typ_4xm_2jb" nev="Mernokinformatika"/>
+</ora>
+</nap>
+
+
+<nap id="nap_4xm_2jb" nev="Kedd">
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Webes_Alkalmazasfejlesztes"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="10_00"/>
+		<ig/ id="iig_4xm_2jb" ido="12_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="101_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Krizsan_Zoltan"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Fizika_2"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="12_00"/>
+		<ig/ id="iig_4xm_2jb" ido="14_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="A3_308"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Paripas_Bela"/>
+	<szak id="typ_4xm_2jb" nev="Mernokinformatika"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Adatkezeles_XML"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="12_00"/>
+		<ig/ id="iig_4xm_2jb" ido="14_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="1_A2"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Bednarik_Laszlo"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Webtechnologiak"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="18_00"/>
+		<ig/ id="iig_4xm_2jb" ido="20_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="101_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Agardi_Anita"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+</nap>
+
+
+<nap id="nap_4xm_2jb" nev="Szerda">
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Szoftverteszteles"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="08_00"/>
+		<ig/ id="iig_4xm_2jb" ido="10_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="103_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Kunne_Tamas_Judit"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Adatkezeles_XML"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="10_00"/>
+		<ig/ id="iig_4xm_2jb" ido="12_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="101_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Bednarik_Laszlo"/>
+	<szak id="typ_4xm_2jb" nev="Korszeru_Webtechnologiak"/>
+</ora>
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Mesterseges_intelligencia"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="10_00"/>
+		<ig/ id="iig_4xm_2jb" ido="11_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="3_terem_info"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Dudas_Laszlo"/>
+	<szak id="typ_4xm_2jb" nev="Mernokinformatika"/>
+</ora>
+</nap>
+
+<nap id="nap_4xm_2jb" nev="Csutortok">
+<ora>
+	<targy id="sbj_4xm_2jb" nev="Elektrosztatika"/>
+	<idopont>
+		<tol id="tol_4xm_2jb" ido="08_00"/>
+		<ig/ id="iig_4xm_2jb" ido="10_00"/>
+	</idopont>
+	<helyszin id="loc_4xm_2jb" nev="32_Eloado"/>
+	<oktato id="ptr_4xm_2jb" nev="Dr_Szabo_Istvan_Norbert"/>
+	<szak id="typ_4xm_2jb" nev="Mernokinformatika"/>
+</ora>
+</nap>
+</orarend>

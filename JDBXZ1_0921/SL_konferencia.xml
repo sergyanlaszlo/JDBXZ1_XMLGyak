@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+	<cim id="adr_4xm_2jb" nev="Tanari_konferencia"/>
+	<datum id="dat_4xm_2jb" datum_var="2021.09.20"/>
+	<eloado id="ptr_4xm_2jb" tema="Kommunikacio">
+		<eloado_nev id="ptrc_4xm_2jb" nev="Dr_Tanar_Istvan"/>
+		<eloado_lakcim id="lct_4xm_2jb" cim="3510_Miskolc_ABC_Ut_3"/>
+		<eloado_adoszam id="txn_4xm_2jb" adoszam="1234567891011"/>
+	</eloado>
+	<helyszin id="hsz_4xm_2jb" nev="Kilences_terem"/>
+	<hallgatok id="sts_4xm_2jb" egyetem="Miskolci_Egyetem">
+		<hallgato id="stu_4xm_2jb" neptunkod="JDBXZ1">
+				<nev id="stn_4xm_2jb" nev="Példa Péter"/>
+				<lakcim id="ltn_4xm_2jb" cim="3510_Miskolc_XYZ_Ut_3"/>
+		</hallgato>
+	</hallgatok>
+</konferencia>
