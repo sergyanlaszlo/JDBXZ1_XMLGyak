@@ -5,8 +5,8 @@
 <!ELEMENT konyv(cim,ev,kiado,szerzo+,abstract?)>
 
 <!ATTLIST konyv id CDATA #REQUIRED>
-<!ATTLIST cim (#PCDATA)>
-<!ATTLIST ev (#PCDATA)>
-<!ATTLIST kiado (#PCDATA)>
-<!ATTLIST szerzo (#PCDATA)>
-<!ATTLIST abstract (#PCDATA)>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT ev (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT szerzo (#PCDATA)>
+<!ELEMENT abstract (#PCDATA)>
