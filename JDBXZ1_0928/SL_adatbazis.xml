@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "SL_adatbazis.dtd">
+<adatbazis>
+    <dolgozo kod="166" nev="Sergyán László" fizetes="100000"/>
+    <dolgozo kod="345" nev="Példa Péter" fizetes="200000"/>
+</adatbazis>

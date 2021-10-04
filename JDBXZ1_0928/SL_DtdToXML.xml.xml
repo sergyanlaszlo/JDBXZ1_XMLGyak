@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sema SYSTEM "SL_ertodtd.dtd">
+<sema>
+    <A pattern="A">
+        <Ac>
+            <Acd></Acd>
+            <Ace></Ace>
+        </Ac>
+    </A>
+    <B pattern="B">
+        <Bb>
+            <Bbx></Bbx>
+            <Bby></Bby>
+        </Bb>
+    </B>
+    <C pattern="C">
+        <Cb></Cb>
+    </C>
+    <A_B>
+        <A_Bc></A_Bc>
+    </A_B>
+</sema>
