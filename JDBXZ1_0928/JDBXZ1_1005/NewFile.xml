@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE konyvek SYSTEM "NewXMLSchema.xsd">
+
+<konyvek xmlns:xml="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NewXMLSchema.xsd">
+
+ <!-- konyvek -->
+	<konyv id="2">
+		<cim> Egri Csillagok>1 </cim>
+		<ev>2003</ev>
+		<kiado>Móra Ferenc Kiadó</kiado>
+		<szerzo>Gárdonyi Géza</szerzo>
+        <abstract> Eger ostroma</abstract>
+	</konyv>
+
+	<konyv id="3">
+		<cim> Aranykoporsó>2</cim>
+		<ev>2010</ev>
+		<kiado>Móra Ferenc Kiadó</kiado>
+		 <szerzo>Móra Ferenc</szerzo>
+        <abstract>aaaaaa</abstract>
+	</konyv>
+
+	<konyv id="4">
+		<cim>Micimackó>3</cim>
+		<ev>2009</ev>
+		<kiado>Móra Ferenc Kiadó</kiado>
+		<szerzo>Alan Alexander Milne</szerzo>
+		<szerzo>Szerzo2</szerzo>
+        <abstract>mesekönyv</abstract>
+	</konyv>
+</konyvek>
