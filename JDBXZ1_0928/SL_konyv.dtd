@@ -4,7 +4,7 @@
 <!ELEMENT konyvek (konyv)*>
 <!ELEMENT konyv(cim,ev,kiado,szerzo+,abstract?)>
 
-<!ATTLIST konyv id CDATA #REQUIRED>
+<!ATTLIST konyv id ID #REQUIRED>
 <!ELEMENT cim (#PCDATA)>
 <!ELEMENT ev (#PCDATA)>
 <!ELEMENT kiado (#PCDATA)>
