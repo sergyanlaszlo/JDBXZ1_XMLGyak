@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+//ID ÉS IDREF HASZNÁLATA
 
 <!DOCTYPE udvar [
         <!ELEMENT udvar (gazda|kutya|kakas|tyuk|roka|diszno)*>
