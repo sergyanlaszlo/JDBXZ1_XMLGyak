@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SL_erToXSD.xsd">
+    <A Aa="ACSA">
+        <Ac>
+            <Acd></Acd>
+            <Ace></Ace>
+        </Ac>
+    </A>
+    <B Ba="YCVA">
+        <Bb>
+            <Bbx></Bbx>
+            <Bby></Bby>
+        </Bb>
+    </B>
+    <C Ca="ADS">
+        <Cb></Cb>
+    </C>
+    <A_B>
+        <A_Bc></A_Bc>
+    </A_B>
+</sema><?xml version="1.0" encoding="UTF-8"?>
+<sema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SL_erToXSD.xsd">
+    <A Aa="ACSA">
+        <Ac>
+            <Acd></Acd>
+            <Ace></Ace>
+        </Ac>
+    </A>
+    <B Ba="YCVA">
+        <Bb>
+            <Bbx></Bbx>
+            <Bby></Bby>
+        </Bb>
+    </B>
+    <C Ca="ADS">
+        <Cb></Cb>
+    </C>
+    <A_B>
+        <A_Bc></A_Bc>
+    </A_B>
+</sema>
