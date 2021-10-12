@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" >
+  <xs:element name="napok">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name = "hétfő">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ora" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="targy"/>
+                    <xs:element name="idopont">
+                      <xs:complexType>
+                        <xs:attribute name="nap" type="xs:string" use="required"/>
+                        <xs:attribute name="tol" type="xs:string" use="required"/>
+                        <xs:attribute name="ig" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="helyszin"/>
+                    <xs:element name="oktato"/>
+                    <xs:element name="szak"/>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required"/>
+                  <xs:attribute name="típus" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name = "kedd">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ora" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="targy"/>
+                  <xs:element name="idopont">
+                    <xs:complexType>
+                      <xs:attribute name="nap" type="xs:string" use="required"/>
+                      <xs:attribute name="tol" type="xs:string" use="required"/>
+                      <xs:attribute name="ig" type="xs:string" use="required"/>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="helyszin"/>
+                  <xs:element name="oktato"/>
+                  <xs:element name="szak"/>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:string" use="required"/>
+                <xs:attribute name="típus" type="xs:string" use="required"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+        <xs:element name = "szerda">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ora" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="targy"/>
+                    <xs:element name="idopont">
+                      <xs:complexType>
+                        <xs:attribute name="nap" type="xs:string" use="required"/>
+                        <xs:attribute name="tol" type="xs:string" use="required"/>
+                        <xs:attribute name="ig" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="helyszin"/>
+                    <xs:element name="oktato"/>
+                    <xs:element name="szak"/>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required"/>
+                  <xs:attribute name="típus" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name = "csütörtök">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ora" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="targy"/>
+                    <xs:element name="idopont">
+                      <xs:complexType>
+                        <xs:attribute name="nap" type="xs:string" use="required"/>
+                        <xs:attribute name="tol" type="xs:string" use="required"/>
+                        <xs:attribute name="ig" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="helyszin"/>
+                    <xs:element name="oktato"/>
+                    <xs:element name="szak"/>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required"/>
+                  <xs:attribute name="típus" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
