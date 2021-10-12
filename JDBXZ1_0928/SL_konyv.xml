@@ -3,28 +3,28 @@
 
 <konyvek>
 	<konyv id="2">
-		<cim> Egri Csillagok>1 </cim>
+		<cim> Big Data: A Revolution That Will Transform How We Live, Work, And Think>1 </cim>
 		<ev>2003</ev>
 		<kiado>Móra Ferenc Kiadó</kiado>
-		<szerzo>Gárdonyi Géza</szerzo>
-        <abstract> Eger ostroma</abstract>
+		<szerzo>Kenneth Cukierr</szerzo>
+		<szerzo>Viktor Mayer-Schönberger</szerzo>
+        <abstract>A book on data analysis</abstract>
 	</konyv>
 
 	<konyv id="3">
-		<cim> Aranykoporsó>2</cim>
-		<ev>2010</ev>
+		<cim> MATLAB For Dummies>2</cim>
+		<ev>2013</ev>
 		<kiado>Móra Ferenc Kiadó</kiado>
-		 <szerzo>Móra Ferenc</szerzo>
-        <abstract>aaaaaa</abstract>
+		 <szerzo>John Mueller</szerzo>
+        <abstract>MATLAB explained for beginners</abstract>
 	</konyv>
 
 	<konyv id="4">
-		<cim>Micimackó>3</cim>
+		<cim>Cracking the Coding Interview>3</cim>
 		<ev>2009</ev>
-		<kiado>Móra Ferenc Kiadó</kiado>
-		<szerzo>Alan Alexander Milne</szerzo>
-		<szerzo>Szerzo2</szerzo>
-        <abstract>mesekönyv</abstract>
+		<kiado>Independent</kiado>
+		<szerzo> Gayle Laakmann McDowell</szerzo>
+        <abstract>IT interview questions explained</abstract>
 	</konyv>
 </konyvek>
 
