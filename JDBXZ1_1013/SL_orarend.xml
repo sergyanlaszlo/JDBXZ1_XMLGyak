@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<napok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SL_orarend.xsd">
+    
+<hétfő>
+    <ora id="ttgy_1" típus="ELmélet">
+    <targy>Webes Alkalmazásfejlesztés (Java)</targy>
+    <idopont nap="hétfő" tol="10" ig="12"/>
+    <helyszin>in/101</helyszin>
+    <oktato>Dr. Krizsán Zoltán</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+    <ora id="ttgy_1" típus="ELmélet">
+    <targy>Web technológiák 1</targy>
+    <idopont nap="hétfő" tol="12" ig="14"/>
+    <helyszin>A2/305</helyszin>
+    <oktato>Agárdi Anita</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+    <ora id="ttgy_2" típus="ELmélet">
+    <targy>Mesterséges intelligencia</targy>
+    <idopont nap="hétfő" tol="14" ig="17"/>
+    <helyszin>32.EA</helyszin>
+    <oktato>Dr. Dudás László</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+    <ora id="ttgy_1" típus="Gyakorlat">
+    <targy>Web technológiák 1</targy>
+    <idopont nap="hétfő" tol="17" ig="19"/>
+    <helyszin>in/101</helyszin>
+    <oktato>Agárdi Anita</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+
+</hétfő>
+<kedd>
+    <ora id="ttgy_1" típus="Gyakorlat">
+    <targy>Webes Alkalmazásfejlesztés (Java)</targy>
+    <idopont nap="kedd" tol="10" ig="12"/>
+    <helyszin>in/101</helyszin>
+    <oktato>Dr. Krizsán Zoltán</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+    <ora id="ttgy_1" típus="ELmélet">
+    <targy>Adatkezelés XML-ben</targy>
+    <idopont nap="kedd" tol="12" ig="14"/>
+    <helyszin>1.EA</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <szak>Mérnökinformatika</szak>
+
+    <ora id="ttgy_2" típus="Gyakorlat">
+    <targy>Fizika 2</targy>
+    <idopont nap="kedd" tol="12" ig="14"/>
+    <helyszin>A2/308</helyszin>
+    <oktato>Dr. Paripás Béla</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+
+</kedd>
+<szerda>
+    <ora id="ttgy_1" típus="Elmélet">
+    <targy>Szoftvertesztelés</targy>
+    <idopont nap="szerda" tol="8" ig="10"/>
+    <helyszin>in/103</helyszin>
+    <oktato>Tompa Tamás</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+    <ora id="ttgy_1" típus="Gyakorlat">
+    <targy>Szoftvertesztelés</targy>
+    <idopont nap="szerda" tol="10" ig="12"/>
+    <helyszin>in/103</helyszin>
+    <oktato>Tompa Tamás</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+    <ora id="ttgy_1" típus="Gyakorlat">
+    <targy>Adatkezelés XML-ben</targy>
+    <idopont nap="szerda" tol="10" ig="12"/>
+    <helyszin>in/202</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+</szerda>
+<csütörtök>
+    <ora id="ttgy_1" típus="Gyakorlat">
+    <targy>Elektrosztatika</targy>
+    <idopont nap="csütörtök" tol="8" ig="10"/>
+    <helyszin>32.EA</helyszin>
+    <oktato>Dr. Szabó Norbert István</oktato>
+    <szak>Mérnökinformatika</szak>
+    </ora>
+</csütörtök>
+</napok>

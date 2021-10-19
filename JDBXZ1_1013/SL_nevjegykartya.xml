@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SL_nevjegykartya.xsd">
+    <nevjegykartya>
+        <nev>Sergyán László</nev>
+        <ceg>
+            <nev>XML Zrt.</nev>
+            <cim>
+                <iranyitoszam>3700</iranyitoszam>
+                <varos>Kazincbarcika</varos>
+                <utca>Jószerencsét Út</utca>
+                <hazszam>55</hazszam>
+            </cim>
+            <telefonszam>06202252251</telefonszam>
+            <weblap>www.xmlzrt.com</weblap>
+        </ceg>
+        <beosztas>Minőségellenőr</beosztas>
+        <telefonszam>06202251726</telefonszam>
+        <email>sergyan.laszlo00@gmail.com</email>
+    </nevjegykartya>
+    <nevjegykartya>
+        <nev>Nagy Péter</nev>
+        <ceg>
+             <nev>XML Zrt.</nev>
+            <cim>
+                 <iranyitoszam>3700</iranyitoszam>
+                <varos>Kazincbarcika</varos>
+                <utca>Jószerencsét Út</utca>
+                <hazszam>55</hazszam>
+            </cim>
+           <telefonszam>06202252251</telefonszam>
+            <weblap>www.xmlzrt.com</weblap>
+        </ceg>
+        <beosztas>Gyártási folyamatokért felelős szakember</beosztas>
+        <telefonszam>062020202020</telefonszam>
+        <email>nagyPeter@xmlzrt.com</email>
+         <email>nagypeti@gmail.com</email>
+    </nevjegykartya>
+</nevjegykartyak>
