@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE macskak SYSTEM "macskakJDBXZ1.dtd">
+
+<macskak xmlns:xs="http://www.w3.org/2001/XMLArchieves-instance" xs:noNamespaceSchemaLocation="macskakJDBXZ1.xsd">
+ <macska id="macska1">
+  	<nev>cirmos</nev>
+  	<kor>7</kor>
+  	<fajta>perzsa</fajta>
+ </macska>
+ <macska id="macska2">
+ 	<nev>kormos</nev>
+ 	<fajta>tarka</fajta>
+ </macska>
+ <macska id="macska3">
+ 	<nev>mici</nev>
+ 	<fajta>kobor</fajta>
+ </macska>
+ </macskak>
