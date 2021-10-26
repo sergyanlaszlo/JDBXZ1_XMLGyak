@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="macskak" type="macskakType"/>
+  <xs:complexType name="macskaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="nev"/>
+      <xs:element type="xs:string" name="kor"/>
+      <xs:element type="xs:string" name="fajta"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="macskaType">
+    <xs:sequence>
+      <xs:element type="macskaType" name="macska" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
