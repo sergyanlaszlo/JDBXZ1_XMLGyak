@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users SYSTEM "usersJDBXZ1.xsl">
+
+<users xmlns:xs="http://www.w3.org/2001/XMLArchieves-instance" xs:noNamespaceSchemaLocation="usersJDBXZ1.xsd">
+ <user id="1">
+  	<firstname>László</firstname>
+  	<lastname>Sergyán</lastname>
+  	<profession>Hallgató</profession>
+ </user>
+ <user id="2">
+  	<firstname>Péter</firstname>
+  	<lastname>Példa</lastname>
+  	<profession>Sofőr</profession>
+ </user>
+  <user id="3">
+  	<firstname>Tamás</firstname>
+  	<lastname>Tamás</lastname>
+  	<profession>Szakács</profession>
+ </user>
