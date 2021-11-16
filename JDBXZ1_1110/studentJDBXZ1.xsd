@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/studentJDBXZ1" xmlns:tns="http://www.example.org/studentJDBXZ1" elementFormDefault="qualified">
-</schema>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="class" type="classType"/>
+  <xs:complexType name="studentType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="keresztnév"/>
+      <xs:element type="xs:string" name="vezetéknév"/>
+      <xs:element type="xs:string" name="becenév"/>
+      <xs:element type="xs:int" name="kor"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="classType">
+    <xs:sequence>
+      <xs:element type="studentType" name="student" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
