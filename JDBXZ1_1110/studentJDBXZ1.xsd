@@ -3,9 +3,9 @@
   <xs:element name="class" type="classType"/>
   <xs:complexType name="studentType">
     <xs:sequence>
-      <xs:element type="xs:string" name="keresztnév"/>
-      <xs:element type="xs:string" name="vezetéknév"/>
-      <xs:element type="xs:string" name="becenév"/>
+      <xs:element type="xs:string" name="keresztnev"/>
+      <xs:element type="xs:string" name="vezeteknev"/>
+      <xs:element type="xs:string" name="becenev"/>
       <xs:element type="xs:int" name="kor"/>
     </xs:sequence>
     <xs:attribute type="xs:string" name="id" use="required"/>
