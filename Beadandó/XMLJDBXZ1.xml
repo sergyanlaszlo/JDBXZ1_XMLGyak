@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="XMLSchemaJDBXZ1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<etelek>
+    <etel rendelesszam="150">
+        <nev>Húsleves</nev>
+        <allergenek>glutén</allergenek>
+        <ar>950</ar>
+
+        <szakacs azonosito="SZ_1">
+            <nev>Szakács Péter</nev>
+            <fizetes>265000</fizetes>
+            <szuletesiDatum>1995.01.28</szuletesiDatum>
+        </szakacs>
+
+        <pincer azonosito="P_1">
+            <nev>Pincér Petra</nev>
+            <fizetes>190000</fizetes>
+            <szuletesiDatum>2000.11.07</szuletesiDatum>
+        </pincer>
+
+        <asztal asztalszam="4">
+            <foglalt>Igen</foglalt>
+            <ferohely>6</ferohely>
+            <emelet>2</emelet>
+        </asztal>
+    </etel>
+
+
+
+    <etel rendelesszam="152">
+        <nev>Carbonara spagetti</nev>
+        <allergenek>glutén</allergenek>
+        <allergenek>tojás</allergenek>
+        <ar>1300</ar>
+
+        <szakacs azonosito="SZ_2">
+            <nev>Tészta Tamás</nev>
+            <fizetes>220000</fizetes>
+            <szuletesiDatum>2001.08.11</szuletesiDatum>
+        </szakacs>
+
+        <pincer azonosito="P_2">
+            <nev>Asztal András</nev>
+            <fizetes>165000</fizetes>
+            <szuletesiDatum>1998.04.21</szuletesiDatum>
+        </pincer>
+
+        <asztal asztalszam="5">
+            <foglalt>Nem</foglalt>
+            <ferohely>2</ferohely>
+            <emelet>2</emelet>
+        </asztal>
+    </etel>
+
+
+
+    <etel rendelesszam="97">
+        <nev>Halászlé</nev>
+        <allergenek>hal</allergenek>
+        <ar>1100</ar>
+
+        <szakacs azonosito="SZ_3">
+            <nev>Leves Levente</nev>
+            <fizetes>290000</fizetes>
+            <szuletesiDatum>1985.11.02</szuletesiDatum>
+        </szakacs>
+
+        <pincer azonosito="P_3">
+            <nev>Szék Sára</nev>
+            <fizetes>175000</fizetes>
+            <szuletesiDatum>1983.07.23</szuletesiDatum>
+        </pincer>
+
+        <asztal asztalszam="6">
+            <foglalt>Igen</foglalt>
+            <ferohely>4</ferohely>
+            <emelet>1</emelet>
+        </asztal>
+    </etel>
+
+</etelek>
