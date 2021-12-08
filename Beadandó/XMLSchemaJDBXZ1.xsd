@@ -16,7 +16,7 @@
                     <xs:element name="fizetes" type="xs:integer" />
                     <xs:element name="szuletesiDatum" type="xs:string" />
                   </xs:sequence>
-                  <xs:attribute name="azonosito" type="xs:string" use="required" />
+                  <xs:attribute name="SZ_azonosito" type="xs:string" use="required" />
                   <xs:attribute name="rendelesszam" type="xs:integer" use="required" />
                 </xs:complexType>
               </xs:element>
@@ -27,7 +27,7 @@
                     <xs:element name="fizetes" type="xs:integer" />
                     <xs:element name="szuletesiDatum" type="xs:string" />
                   </xs:sequence>
-                  <xs:attribute name="azonosito" type="xs:string" use="required" />
+                  <xs:attribute name="P_azonosito" type="xs:string" use="required" />
                   <xs:attribute name="rendelesszam" type="xs:integer" use="required" />
                 </xs:complexType>
               </xs:element>
@@ -48,5 +48,25 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
+    <xs:key name="rendelesszam">
+    <xs:selector xpath="etelek/etel"></xs:selector>
+    <xs:field xpath="@rendelesszam"></xs:field>
+    </xs:key>
+    <xs:key name="SZ_azonosito">
+    <xs:selector xpath="etelek/etel/szakacs"></xs:selector>
+    <xs:field xpath="@SZ_azonosito"></xs:field>
+    </xs:key>
+    <xs:key name="P_azonosito">
+    <xs:selector xpath="etelek/etel/pincer"></xs:selector>
+    <xs:field xpath="@P_azonosito"></xs:field>
+    </xs:key>
+    <xs:keyref name="rendelesszamREF" refer="rendelesszam">
+    <xs:selector xpath="etelek/etel/szakacs"/>
+    <xs:field xpath="@rendelesszamREF"/> 
+    </xs:keyref>
+    <xs:keyref name="rendelesszamREF1" refer="rendelesszam">
+    <xs:selector xpath="etelek/etel/pincer"/>
+    <xs:field xpath="@rendelesszamREF1"/> 
+    </xs:keyref>
   </xs:element>
 </xs:schema>
