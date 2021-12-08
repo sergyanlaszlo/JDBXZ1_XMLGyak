@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="etelek">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="etel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nev" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="allergenek" type="xs:string" />
+              <xs:element name="ar" type="xs:integer" />
+              <xs:element name="szakacs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nev" type="xs:string" />
+                    <xs:element name="fizetes" type="xs:integer" />
+                    <xs:element name="szuletesiDatum" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="SZ_azonosito" type="xs:string" use="required" />
+                  <xs:attribute name="rendelesszam" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="pincer">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nev" type="xs:string" />
+                    <xs:element name="fizetes" type="xs:integer" />
+                    <xs:element name="szuletesiDatum" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="P_azonosito" type="xs:string" use="required" />
+                  <xs:attribute name="rendelesszam" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="asztal">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="foglalt" type="xs:string" />
+                    <xs:element name="ferohely" type="xs:integer" />
+                    <xs:element name="emelet" type="xs:integer" />
+                  </xs:sequence>
+                  <xs:attribute name="asztalszam" type="xs:integer" use="required" />
+                  <xs:attribute name="rendelesszam" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="rendelesszam" type="xs:integer" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="rendelesszam">
+    <xs:selector xpath="etelek/etel"></xs:selector>
+    <xs:field xpath="@rendelesszam"></xs:field>
+    </xs:key>
+    <xs:key name="SZ_azonosito">
+    <xs:selector xpath="etelek/etel/szakacs"></xs:selector>
+    <xs:field xpath="@SZ_azonosito"></xs:field>
+    </xs:key>
+    <xs:key name="P_azonosito">
+    <xs:selector xpath="etelek/etel/pincer"></xs:selector>
+    <xs:field xpath="@P_azonosito"></xs:field>
+    </xs:key>
+    <xs:keyref name="rendelesszamREF" refer="rendelesszam">
+    <xs:selector xpath="etelek/etel/szakacs"/>
+    <xs:field xpath="@rendelesszamREF"/> 
+    </xs:keyref>
+    <xs:keyref name="rendelesszamREF1" refer="rendelesszam">
+    <xs:selector xpath="etelek/etel/pincer"/>
+    <xs:field xpath="@rendelesszamREF1"/> 
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
